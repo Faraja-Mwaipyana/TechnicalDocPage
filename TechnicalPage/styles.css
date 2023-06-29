@@ -1,0 +1,45 @@
+/* Add your CSS styles here */
+body {
+    display: flex;
+  }
+  
+  #navbar {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  #navbar h1 {
+    margin-bottom: 20px;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #navbar li {
+    margin-bottom: 10px;
+  }
+  
+  .main-section {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+  
+    .main-section {
+      margin-left: 0;
+    }
+  
+    #navbar {
+      width: 100%;
+    }
+  }
+  
